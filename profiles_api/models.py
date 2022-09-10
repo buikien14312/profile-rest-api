@@ -68,4 +68,5 @@ class ProfileFeedItem(models.Model):
 
     def __str__(self):
         """Return the model as a string"""
+        """pw = 123"""
         return self.status_text
